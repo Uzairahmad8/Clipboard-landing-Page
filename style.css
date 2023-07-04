@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Bai Jamjuree", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.header {
+  max-width: 730px;
+  margin: 128px auto;
+  text-align: center;
+}
+
+.headerHeading {
+  font-size: 46px;
+  margin: 56px auto 16px auto;
+}
+
+.headerText {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.btn {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  padding: 13px 32px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 16px;
+  transition: all 0.5s;
+}
+
+.btnIOS {
+  background-color: #26bba4;
+}
+
+.btnMac {
+  background-color: #6174ff;
+}
+
+.btnIOS:hover {
+  box-shadow: 0px 4px 1px #26bba4;
+}
+
+.btnMac:hover {
+  box-shadow: 0px 4px 1px #6174ff;
+}
+
+.introHeading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.introPara {
+  word-spacing: 1px;
+  font-size: 18px;
+  text-align: center;
+  max-width: 730px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.functionaity {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 110px;
+  margin-top: 80px;
+  max-width: 1212px;
+}
+
+.imageBox {
+  margin-left: -30px;
+}
+
+.funcBox {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  max-width: 350px;
+  margin-top: 60px;
+}
+
+.funcBox h4 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.funcBox p {
+  line-height: 30px;
+  word-spacing: 0.12px;
+  opacity: 0.7;
+}
+
+.FuncImage {
+  width: 100%;
+  max-width: 100%;
+}
+
+.clipboardSection {
+  margin: 110px auto;
+  max-width: 730px;
+  text-align: center;
+}
+
+.clipboardSection h4 {
+  font-size: 36px;
+  margin-bottom: 19px;
+}
+
+.clipboardSection p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.superCharge {
+  max-width: 810px;
+  margin: 110px auto;
+}
+
+.superImage {
+  width: 100%;
+  max-width: 100%;
+}
+
+.superChargeText {
+  max-width: 710px;
+  margin: 160px auto 76px auto;
+  text-align: center;
+}
+
+.superChargeText h4 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.superChargeText p {
+  font-size: 18px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 72px auto;
+  max-width: 1110px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.optionCard {
+  max-width: 350px;
+  text-align: center;
+}
+
+.optionCard h4 {
+  margin-top: 44px;
+  font-size: 24px;
+}
+
+.optionCard p {
+  line-height: 30px;
+  margin-top: 16px;
+  opacity: 0.6;
+}
+
+.cardimage1 {
+  width: 36px;
+  height: 32px;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 150px auto;
+  filter: grayscale();
+}
+
+.CTA {
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.CTA h4 {
+  font-size: 36px;
+}
+
+.CTA p {
+  font-size: 18px;
+  opacity: 0.6;
+  margin: 19px auto 48px auto;
+}
+
+.footer {
+  max-width: 1440px;
+  margin-top: 150px;
+  background-color: #f7f5f5;
+  padding: 50px 20px 20px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.footerlogoImg {
+  width: 55px;
+  height: 55px;
+}
+
+.linkDiv1 {
+  display: flex;
+  gap: 83px;
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.linkDiv1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.linkDiv1 a:hover {
+  color: #26bba4;
+}
+
+.linkDiv2 {
+  display: flex;
+  list-style: none;
+  gap: 43px;
+}
+
+.linkDiv2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.linkDiv2 a:hover {
+  color: #26bba4;
+}
+
+.footerSocialLinks {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  filter: grayscale();
+}
+
+.fa-brands:hover {
+  filter: brightness(100%);
+}
+
+@media (max-width: 1180px) {
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .functionaity {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+  }
+
+  .superCharge {
+    max-width: 700px;
+  }
+
+  .footer {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .footerLogo {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .linkDiv1 {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .linkDiv2 {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footerSocialLinks {
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 810px) {
+  .header,
+  .intro,
+  .clipboardSection,
+  .CTA {
+    max-width: 600px;
+  }
+
+  .imageBox {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .FuncImage {
+    width: 100%;
+    max-width: 100%;
+    /* margin: auto; */
+  }
+}
+
+@media (max-width: 650px) {
+  .companies {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 530px) {
+  .main {
+    max-width: 311px;
+  }
+
+  .header {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .headerHeading {
+    font-size: 32px;
+  }
+
+  .headerText {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+
+  .introHeading {
+    font-size: 28px;
+  }
+
+  .introPara {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+
+  .clipboardSection {
+    margin: 60px auto;
+  }
+
+  .clipboardSection h4 {
+    font-size: 28px;
+  }
+
+  .clipboardSection p {
+    font-size: 14px;
+    opacity: 0.6;
+  }
+
+  .superCharge {
+    margin: 0 auto;
+  }
+
+  .superChargeText {
+    margin: 50px auto;
+  }
+
+  .superChargeText h4 {
+    font-size: 28px;
+  }
+
+  .superChargeText p {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+
+  .options {
+    gap: 56px;
+  }
+
+  .companies {
+    margin: 100px auto;
+  }
+
+  .CTA h4 {
+    font-size: 28px;
+  }
+
+  .CTA p {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+
+  .btn {
+    margin-bottom: 24px;
+  }
+
+  .functionaity {
+    margin: 20px auto;
+    gap: 0;
+    text-align: center;
+  }
+
+  /* .linkDiv2 {
+  } */
+}
